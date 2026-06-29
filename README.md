@@ -38,8 +38,8 @@ A compact ESP32-S3 development board designed for rapid prototyping and embedded
             IO43  —│                  │— IO46
             IO44  —│                  │— IO47
             GND   —│                  │— IO2  (onboard LED)
-            5 V    —│                  │— IO0  (Boot button)
-                    └──────────────────┘
+            5 V   —│                  │— IO0  (Boot button)
+                   └──────────────────┘
 ```
 
 | Peripheral   | GPIO | Notes                         |
@@ -109,7 +109,7 @@ Hold **Boot** (SW1), press and release **Reset** (SW2), then release **Boot** to
 
 Board files live in [`BOARD/`](BOARD/). The project was designed in **KiCad 8**.
 
-**🔗 [View schematic & PCB interactively on KiCanvas](https://kicanvas.org/?github=https://github.com/jacobjuneau6/devkit2)**
+**🔗 [View schematic & PCB interactively on KiCanvas](https://kicanvas.org/?github=https://github.com/jacobjuneau6/devkit2/blob/main/BOARD/Board/Board.kicad_pro)**
 
 ![PCB layout](images/pcb.png)
 
