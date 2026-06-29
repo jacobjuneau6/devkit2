@@ -13,6 +13,8 @@ A compact ESP32-S3 development board designed for rapid prototyping and embedded
 - **3.3 V LDO regulator** (TPS74533) — up to 500 mA output, 6.5 V max input
 - **Compact form factor** — fits on a breadboard with one row of pins free on each side
 
+![devkit2 3D render](images/3d.png)
+
 ## Pin Map
 
 ```
@@ -106,6 +108,12 @@ Hold **Boot** (SW1), press and release **Reset** (SW2), then release **Boot** to
 ## Hardware
 
 Board files live in [`BOARD/`](BOARD/). The project was designed in **KiCad 8**.
+
+**🔗 [View schematic & PCB interactively on KiCanvas](https://kicanvas.org/?github=https://github.com/jacobjuneau6/devkit2)**
+
+![PCB layout](images/pcb.png)
+
+![Schematic](images/schematic.png)
 
 | Directory                 | Contents                     |
 |--------------------------|------------------------------|
